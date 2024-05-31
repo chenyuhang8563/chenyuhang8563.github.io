@@ -6237,7 +6237,7 @@ blockquote.pullquote.right {
     flex-direction: column;
     align-items: flex-start;
     margin-left: .5rem;
-    background: var(--bywind-card-bg);
+    background: #fff;
     border-radius: 12px;
     overflow: hidden;
     min-width: 200px;
@@ -6246,7 +6246,7 @@ blockquote.pullquote.right {
     border: var(--style-border-always);
     transition: .3s;
     position: relative;
-    box-shadow: var(--bywind-shadow-border)
+    box-shadow: 0 8px 16px -4px #2c2d300c;
 }
 
 @media screen and (max-width: 768px) {
@@ -6287,8 +6287,8 @@ span.recent-post-top-text {
     left: -40px;
     display: flex;
     z-index: 1;
-    background: var(--bywind-theme);
-    color: var(--bywind-white);
+    background: #425AEF;
+    color: white;
     padding: 2px 8px;
     font-size: .6rem;
     border-radius: 12px 0 12px 0;
@@ -6303,7 +6303,7 @@ span.recent-post-top-text {
 @media screen and (min-width: 1300px) {
     .recent-post-top .recent-post-item:hover {
         border:var(--style-border-hover);
-        box-shadow: var(--bywind-shadow-main);
+        box-shadow: 0 8px 12px -3px var(rgba(66,89,239,0.137));
         transform: scale(1.03)
     }
 
@@ -6315,7 +6315,7 @@ span.recent-post-top-text {
 @media screen and (max-width: 768px) {
     .recent-top-post-group {
         border-radius:0;
-        background: var(--bywind-background)
+        background: #f7f9fe
     }
 
     .recent-post-top-text {
@@ -6581,7 +6581,7 @@ div#banners {
   .banners-title-small {
     font-size: 12px;
     line-height: 1;
-    color: var(--bywind-secondtext);
+    color: rgba(60, 60, 67, 0.8);
     margin-top: 8px;
     margin-bottom: 0.5rem;
   }
@@ -6592,8 +6592,8 @@ div#banners {
     height: 100%;
     top: 0;
     left: 0;
-    background: var(--bywind-theme);
-    color: var(--bywind-white);
+    background: #425AEF;
+    color: white;
     padding-left: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -6619,8 +6619,8 @@ div#banners {
     background: #4259efc9;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    -webkit-backface-visibility: hidden;
-    -webkit-transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
     transition: 0.3s;
     background-size: 200%;
     cursor: pointer;
@@ -6666,7 +6666,7 @@ div#banners {
         bottom: 2rem;
         left: 2rem;
         z-index: 2;
-        color: var(--bywind-white);
+        color: white;
         max-width: 60%;
         transition: 0.3s;
     }
@@ -6702,7 +6702,7 @@ div#banners {
     .topGroup .banner-button {
         background: var(--bywind-white-op);
         border-radius: 20px;
-        color: var(--bywind-white);
+        color: white;
         display: flex;
         align-items: center;
         z-index: 1;
@@ -6717,8 +6717,8 @@ div#banners {
     }
 
     .topGroup .banner-button:hover {
-        background: var(--bywind-theme);
-        color: var(--bywind-white);
+        background: blue;
+        color: white;
     }
 
     .topGroup .banner-button i {
